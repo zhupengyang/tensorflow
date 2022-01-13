@@ -41,7 +41,6 @@ enum class DelegateStatusSource {
   NONE = 0,
   TFLITE_GPU = 1,
   TFLITE_NNAPI = 2,
-  TFLITE_HEXAGON = 3,
   TFLITE_XNNPACK = 4,
   TFLITE_COREML = 5,
   MAX_NUM_SOURCES = std::numeric_limits<int32_t>::max(),
